@@ -10,8 +10,10 @@ const Body = () => {
 
     return (
         <>
-            <button onClick={() => counter(true)}>Плюсани меня</button>
-            <button onClick={() => counter(false)}>Минусани меня</button>
+            <div className="d-flex flex-column">
+                <button className="mt-1 mb-1" onClick={() => counter(true)}>Плюсани меня</button>
+                <button className="mt-1 mb-1" onClick={() => counter(false)}>Минусани меня</button>
+            </div>
             <div>{count}</div>
         </>
     )
