@@ -1,8 +1,9 @@
 const Body = () => {
     return(
-        <div>
-            Body
-        </div>
+        <>
+        <div>Body1</div>
+        <div>Body2</div>
+        </>
     )
 }
 
